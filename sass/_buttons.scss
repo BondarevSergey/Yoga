@@ -1,0 +1,28 @@
+.btn {
+	display: inline-block;
+	padding: 15px 65px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 7px;
+    color: $main-color;
+    background: $main-color-inverse;
+	text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+	transition: .3s;
+	&:hover {
+        outline: none;
+		background-color: #5363d8;
+    	transition: .3s;
+    	text-decoration: none;
+    	color: $main-color;
+ 	}
+  	&:focus {
+    	outline: none;
+        background-color: #5363d8;
+        transition: .3s;
+        text-decoration: none;
+        color: $main-color;
+  	}
+
+}
