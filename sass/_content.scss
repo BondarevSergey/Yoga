@@ -143,10 +143,12 @@
     font-weight: bold;
     text-transform: uppercase;
     color: $main-color-inverse;
+    text-align: center;
   }
   .about-content {
     max-width: 460px;
     margin-top: 0;
+    margin-bottom: 30px;
     font-size: 14px;
     color: #555555;
   }
@@ -505,6 +507,12 @@
     }
   }
 
+  .about {
+    .about-title {
+      text-align: left;
+    }
+  }
+
   .commentSlider__item {
     .comments-photo {
       @include inlineBlockAlign();
@@ -591,6 +599,9 @@
       float: left;
       width: 50%;
     }
+    .about-content {
+      margin-bottom: 14px;
+    }
   }
 
   .aboutSlider {
@@ -607,8 +618,11 @@
     }
   }
 
-  .price-box {
+  .price {
+    .price-box {
     min-width: 370px !important;
   }
+  }
+  
 }
 

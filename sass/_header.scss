@@ -1,9 +1,22 @@
 .header {
-  position: relative;
   padding: 16px 0;
   &__iner {
     @include flexAlign();
   }
+}
+
+.header.default {
+  position: relative;
+}
+
+.header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid $main-color-inverse;
+    background-color: #fff;
 }
 
 .btntogle {

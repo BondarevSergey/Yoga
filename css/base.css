@@ -27,9 +27,9 @@ body {
 
 @font-face {
     font-family: 'Freestyle Script';
-    src: url('fonts/Freestyle.ttf');
-    src: url('fonts/Freestyle.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Freestyle.woof') format('woff'),
-    url('fonts/Freestyle.ttf') format('truetype'),
-    url('fonts/Freestyle.svg') format('svg');
+    src: url('../fonts/Freestyle.ttf');
+    src: url('../fonts/Freestyle.eot?#iefix') format('embedded-opentype'),
+    url('..//Freestyle.ttf') format('truetype'),
+    /*url('../fonts/Freestyle.woff') format('woff'),*/
+    url('../fonts/Freestyle.svg') format('svg');
 }
